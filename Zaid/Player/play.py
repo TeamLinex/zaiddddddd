@@ -135,17 +135,16 @@ async def play(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton('⏭️', callback_data="skip"),
-                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("↻", callback_data="cbstop"),
+                      InlineKeyboardButton("❚❚", callback_data="cbpause"),
+                      InlineKeyboardButton("◁", "skip"),
+                      InlineKeyboardButton("▷", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                  ],[
-                      InlineKeyboardButton("🗑", callback_data="cls")],
-                  ]
-             )
+                      InlineKeyboardButton(text="✦ Support", url=f"https://t.me/{GROUP_SUPPORT}"),
+                      InlineKeyboardButton(text="Updates ✦", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                   ],                
+                ]
+           )
     if m.sender_chat:
         return await m.reply_text("you're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
     try:
