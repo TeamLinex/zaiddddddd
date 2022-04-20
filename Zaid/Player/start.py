@@ -37,21 +37,21 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
         caption=f"""**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
-✦ Hello, My name is Tc Player Music bot.I'm a telegram streaming bot with some useful features.
+✦ Hello, My name is Ankit & Khushi Music bot.I'm a telegram streaming bot with some useful features.
 ┏━━━━━━━━━━━━━━━━━┓
-┣✦ Developer : [⇆](https://t.me/Official_Afk_xD)
+┣✦ Developer : [⇆](https://t.me/ANKIT_KHUSHI)
 ┣✦ Support   : [◁](https://t.me/Blaze_Support)
-┣✦ About me  : [❚❚](t.me/ITZZ_OFFICIAL)
+┣✦ About Me  : [❚❚](t.me/ITZZ_OFFICIAL)
 ┣✦ Updates   : [▷](https://t.me/LOVE_X_POISONS)
 ┣✦ ChiChat   : [↻](https://t.me/UNIQUE_SOCIETY)
 ┗━━━━━━━━━━━━━━━━━┛ 
-✦ POWERED BY- [THE BLAZE NETWORK](https://t.me/THE_BLAZE_NETWORK) .
+✦ POWERED BY- [ANKIT AND KHUSHI](https://t.me/Official_Afk_xD) .
 ▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add Music Bot To Your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕ Add Ankit & Khushi To Your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
